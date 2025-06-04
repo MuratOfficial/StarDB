@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<h1 align="center">🌌 StarDB (Learning Project)</h1>
+<p align="center">
+  A React-based web application that displays information about characters, planets, and starships from the Star Wars universe using the public SWAPI API.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/MuratOfficial/StarDB?style=flat-square" />
+  <img src="https://img.shields.io/github/license/MuratOfficial/StarDB?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/MuratOfficial/StarDB?style=flat-square" />
+</p>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 About the Project
 
-### `npm start`
+**StarDB** is a learning project created to practice building modern web applications using React. It fetches data from the Star Wars API (SWAPI) and presents it in a clean and structured way, allowing users to browse information about people, planets, and starships.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack
 
-### `npm test`
+- **Language**: JavaScript (ES6+)
+- **Library**: React
+- **Styling**: Bootstrap
+- **Build Tool**: Create React App
+- **Data Source**: [SWAPI](https://swapi.dev/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ✅ View lists of Star Wars characters, planets, and starships  
+- ✅ View detailed information about each item  
+- ✅ React Router for client-side navigation  
+- ✅ Loading and error state handling  
+- ⏳ Planned: Search and filtering  
+- ⏳ Planned: Pagination support  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Getting Started
 
-### `npm run eject`
+```bash
+# 1. Clone the repository
+git clone https://github.com/MuratOfficial/StarDB.git
+cd StarDB
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 2. Install dependencies
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 3. Start the development server
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*App will be available at:*
+`http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🗂️ Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```text
+StarDB/
+├── public/             # Public assets
+├── src/                # Application source code
+│   ├── components/     # Reusable React components
+│   ├── services/       # API service modules
+│   ├── App.js          # Main app component
+│   ├── index.js        # Entry point
+│   └── ...
+├── package.json        # Project configuration
+└── README.md           # Project documentation
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📌 Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Add search and filter functionality
+* Improve responsive UI design
+* Add support for pagination
+* Connect to additional APIs for expanded features
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contribution
 
-### Making a Progressive Web App
+Want to contribute? You're welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+# Fork the repository
+# Create a new branch
+git checkout -b feature/my-feature
 
-### Advanced Configuration
+# Make your changes
+git commit -m "Add my new feature"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Push to GitHub
+git push origin feature/my-feature
 
-### Deployment
+# Open a Pull Request!
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center"><b>Made with ❤️ for learning purposes by <a href="https://github.com/MuratOfficial">MuratOfficial</a></b></p>
